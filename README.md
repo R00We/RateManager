@@ -1,4 +1,18 @@
-RateManager
+# ReviewManager
 ===========
 
-Realizes the possibility to ask users to write a positive review of the application in appStore
+## Description
+
+Realizes the possibility to ask users to write a positive review of the application in appStore. individuality:
+  - The class is designed as a Singleton
+  - Allows you to flexibly adjust the time display pop-up message.
+
+## Connection
+
+In AppDelegate.h function applicationDidBecomeActive: (UIApplication *) application append [[ReviewManager sharedInstance] review];
+Do not forget to ReviewManager.h add a direct link to the app in the App Store.
+---
+## Dependencies
+there are no dependencies
+
+---
