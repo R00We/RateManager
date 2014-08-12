@@ -16,4 +16,5 @@ Do not forget to ReviewManager.h add a direct link to the app in the App Store.
 
 ## Dependencies
 No dependencies
-
+## Result
+![Result](https://raw.githubusercontent.com/R00We/RateManager/master/sample/1.png)
