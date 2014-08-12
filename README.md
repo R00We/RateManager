@@ -11,7 +11,8 @@ In AppDelegate.m
 {
     [[RateManager sharedInstance] review];
 }
-``` Do not forget to ReviewManager.h add a direct link to the app in the App Store.
+``` 
+Do not forget to ReviewManager.h add a direct link to the app in the App Store.
 
 ## Dependencies
 No dependencies
