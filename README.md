@@ -4,7 +4,6 @@ Realizes the possibility to ask users to write a positive review of the applicat
   - Allows you to flexibly adjust the time display pop-up message.
 
 ## Connection
-
 In AppDelegate.m function `applicationDidBecomeActive: (UIApplication *) application` append `[[ReviewManager sharedInstance] review];` Do not forget to ReviewManager.h add a direct link to the app in the App Store.
 ---
 ## Dependencies
