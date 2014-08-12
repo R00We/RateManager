@@ -1,6 +1,4 @@
 # ReviewManager
-===========
-
 ## Description
 
 Realizes the possibility to ask users to write a positive review of the application in appStore. individuality:
@@ -9,7 +7,7 @@ Realizes the possibility to ask users to write a positive review of the applicat
 
 ## Connection
 
-In AppDelegate.h function applicationDidBecomeActive: (UIApplication *) application append [[ReviewManager sharedInstance] review];
+In AppDelegate.h function `applicationDidBecomeActive: (UIApplication *) application` append `[[ReviewManager sharedInstance] review];`
 Do not forget to ReviewManager.h add a direct link to the app in the App Store.
 ---
 ## Dependencies
